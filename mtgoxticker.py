@@ -6,6 +6,9 @@ import sys
 import time
 import traceback
 import urllib2
+__version__ = "$Revision: 1.0 $"
+# $Source$
+__date__ = "$Date: 2013/02/15 08:33:50 $"
 
 STANDALONE = False    # If True display html <head> and <title> tags as preamble.
 FULLTICKER = True     # If False just display the weighted average price
