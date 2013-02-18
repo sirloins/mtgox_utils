@@ -14,6 +14,12 @@ class bitCoinTicker():
   """ Retrieve ticker data (json format) from mtgox.com and convert it to plain html.
       The resulting ticker is similar to the one displayed on the Mt. Gox
       main page.
+
+      If you find this code useful you may wish to send a tip to
+      the following address:
+
+      1N9mn4XhtzRsj1DCWk1JRUntk5DCRH5r6p
+
   """
   try:
     print 'Content-type: text/html\n\n'
