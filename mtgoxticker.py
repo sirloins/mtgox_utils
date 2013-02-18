@@ -10,7 +10,7 @@ import urllib2
 STANDALONE = False    # If True display html <head> and <title> tags as preamble.
 FULLTICKER = True     # If False just display the weighted average price
 
-class bitCoinTicker():
+class _bitCoinTicker():
   """ Retrieve ticker data (json format) from mtgox.com and convert it to plain html.
       The resulting ticker is similar to the one displayed on the Mt. Gox
       main page.
@@ -70,4 +70,4 @@ class bitCoinTicker():
     return (excName, excArgs, excTb)
 
 if __name__ == '__main__':
-  bitCoinTicker()
+  _bitCoinTicker()
