@@ -1,0 +1,14 @@
+Python code to obtain bitcoin price and volome data from MtGox.com
+
+The bitCoinTicker class retrieves ticker data (json format) from mtgox.com and converts
+it to plain html. The resulting ticker is similar to the one displayed on the Mt. Gox
+main page.
+
+Can run as is or as a server-side include (cgi) in your web page.
+
+Requires Python 2.6 or above.   I have tested with Python version 2.7.3
+
+If you find this code useful you may wish to send a tip to
+the following address:
+
+1N9mn4XhtzRsj1DCWk1JRUntk5DCRH5r6p
