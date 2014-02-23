@@ -52,9 +52,6 @@ class _BitcoinTicker():
       reqr = requester(auth_key, auth_secret)
       args = {}
       data = reqr.perform('BTCUSD/ticker', args)
-      #@@@ earlier code had a way to specify 8 seconds timeout
-      #handle = urllib2.urlopen('https://mtgox.com/api/1/BTCUSD/ticker', timeout=8)
-      #data = json.load(handle)
       if data['result'] == 'success':
         last = data['return']['last']
         high = data['return']['high']
