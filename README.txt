@@ -1,7 +1,8 @@
 Python code to obtain bitcoin price and volome data from MtGox.com
 
 *** Note: This code has been depricated since 28-Feb-2013
-***       Consider using bitstamp_utils ( https://github.com/sirloins/bitstamp_utils ) instead.
+***       As an alternative consider using bitstamp_utils:
+***         https://github.com/sirloins/bitstamp_utils
 ***
 
 The _bitCoinTicker class retrieves ticker data (json format) from mtgox.com and converts
