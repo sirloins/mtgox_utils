@@ -1,6 +1,6 @@
 Python code to obtain bitcoin price and volome data from MtGox.com
 
-*** Note: This code has been depricated since 28-Feb-2013
+*** Note: This code has been depricated since 28-Feb-2014
 ***       As an alternative consider using bitstamp_utils:
 ***         https://github.com/sirloins/bitstamp_utils
 ***
